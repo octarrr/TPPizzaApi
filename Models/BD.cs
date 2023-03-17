@@ -5,7 +5,7 @@ namespace PizzaApi.Models;
 
 public static class BD
 {
-    private static string connectionStr = "Server=A-PHZ2-AMI-020;Database=PizzaDB;Trusted_Connection=True;";
+    private static string connectionStr = "Server=A-PHZ2-AMI-020;Database=DAI-Pizzas;Trusted_Connection=True;";
 
     public static List<Pizza> GetAll()
     {
